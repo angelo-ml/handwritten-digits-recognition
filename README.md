@@ -1,5 +1,5 @@
 # Python Handwritten Digits Recognition
-Handwritten Digits Recognition is a python class which recognizes images of handwritten digits with size 28x28 pixels with 98.8% accuracy.
+Handwritten Digits Recognition is a python class which recognizes images of handwritten digits and size of 28x28 pixels, with 98.8% accuracy.
 
 ## Repository Files
 - predicting_hand_written_digits: trains a neurall network to recognize digits out of 28x28px images taken from the MNIST database (http://yann.lecun.com/exdb/mnist/)
