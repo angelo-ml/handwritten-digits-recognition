@@ -31,3 +31,18 @@ predictions = digits_recognition.recognizeDigits(input_data)
 ```
 
 **digits_recognition.deskew()** method, is used in the preprocessing part of the *recognizeDigits()* method. However, it can also be used independently to deskew an image.
+
+```
+# import pyplot library
+from matplotlib import pyplot as plt
+
+# read image
+img_path = 'example-data/4.jpg'
+img = plt.imread(img_path)
+
+new_img = np.mean(img,2) # make image black & white
+new_img = np.abs(255-new_img) # inverse image colors - optional
+
+# deskew image
+deskewed_img = deskew(new_img)
+```
