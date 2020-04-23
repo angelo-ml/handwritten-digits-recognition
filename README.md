@@ -28,6 +28,9 @@ input_data = ['example-data/0.jpg',
 
 # list with the digits recognized in each image
 predictions = digits_recognition.recognizeDigits(input_data)
+
+# returns predictions array:
+# predictions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 **digits_recognition.deskew()** method, is used in the preprocessing part of the *recognizeDigits()* method. However, it can also be used independently to deskew an image.
